@@ -1,0 +1,71 @@
+.title {
+  color: indigo;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background-color: rgb(187, 209, 255);
+}
+body p {
+  text-align: center;
+  font-size: x-large;
+  color: indigo;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body button {
+  height: 65px;
+  width: 85px;
+  border-radius: 35px;
+  background-color: cadetblue;
+  color: ghostwhite;
+}
+body button:hover {
+  cursor: pointer;
+}
+.rock {
+  background-color: azure;
+  color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+.rock:hover {
+  background-color: rgb(163, 199, 199);
+}
+.paper {
+  background-color: aliceblue;
+  color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  transition: color 0.15s,
+    background-color 0.15s;
+}
+.paper:hover {
+  color: aliceblue;
+  background-color: cornflowerblue; 
+}
+.scissor {
+  background-color: antiquewhite;
+  color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  transition: box-shadow 0.55s,
+    color 0.55s,
+      background-color 0.55s;
+}
+.scissor:hover {
+  color: rgb(109, 14, 235);
+  background-color: cyan;
+  box-shadow: 3px 3px 10px black;
+  
+}
+.reset {
+  transition: width 0.33s;
+}
+.reset:hover {
+  width: 100px;
+}
